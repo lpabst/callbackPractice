@@ -67,7 +67,7 @@ multiply(4, 3, function(answer){
 
     var ind = arr.indexOf(str);
 
-    if (ind > 0){
+    if (ind >= 0){
       res = true;
     }else{
       res = false;
